@@ -1,0 +1,67 @@
+body{
+    background: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+a {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+a, a:visited {
+    color: #f2b8f2;
+}
+
+a:hover, a:focus {
+    color: #f136f1;
+}
+
+a:active {
+    color: white;
+}
+
+#navbar {
+    display: block;
+    height: 150px;
+    max-width: 1100px;
+}
+
+#logo {
+    float: left;
+    max-width: 175px;
+    max-height: 175px;
+}
+
+#pageTitle {
+    padding: 49px;
+    float: right;
+}
+
+#addressList {
+    float: left;
+    padding: 50px;
+}
+
+.addressCard {
+    margin-bottom: 40px;
+    max-width: 800px;
+}
+
+.address {
+    width: 250px;
+}
+
+.storeNumber, .address, .contact {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.storeNumber {
+    vertical-align: top;
+    margin-top: 0;
+}
+
+.address, .contact {
+    vertical-align: middle;
+}

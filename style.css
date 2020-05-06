@@ -1,13 +1,20 @@
 body{
-    background: white;
-    color: black;
+    background: black;
+    color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-a {
+pre{
+    margin: 0;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+/* a {
     margin-right: 10px;
     margin-left: 10px;
-}
+} */
 
 a, a:visited {
     color: #f2b8f2;
@@ -44,8 +51,8 @@ a:active {
 }
 
 .addressCard {
-    margin-bottom: 40px;
-    max-width: 800px;
+    margin-bottom: 80px;
+    max-width: 900px;
 }
 
 .address {
@@ -54,14 +61,19 @@ a:active {
 
 .storeNumber, .address, .contact {
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 60px;
 }
 
 .storeNumber {
-    vertical-align: top;
+    vertical-align: middle;
     margin-top: 0;
 }
 
 .address, .contact {
     vertical-align: middle;
+}
+
+.c-contact-phone, .c-contact-directions {
+    display: block;
+    margin-bottom: 10px;
 }
